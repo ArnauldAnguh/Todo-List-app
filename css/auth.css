@@ -1,0 +1,77 @@
+html,
+body {
+  position: relative;
+  background-color: whitesmoke;
+  margin: 0px;
+}
+h1 {
+  background: #2980b9;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.container {
+  background: #f7f7f7;
+  width: 50%;
+  margin: 100px auto;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: inset 0 3px 5px red, 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.container .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 3px orangered;
+  margin: 5px auto;
+}
+.container .img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 3px orangered;
+}
+.container .form,
+.container .form-group {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+.container .form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  color: #666;
+  outline: 0;
+}
+.error {
+  width: 90%;
+  padding: 5px 10px;
+  background-color: rgba(255, 0, 20, 0.5);
+  color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 2px auto;
+}
+.success {
+  text-align: center;
+  padding: 6px;
+  color: green;
+}
+.btn {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 20px;
+  color: #fff;
+  outline: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: georgia;
+  border: 2px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  background: rgba(25, 25, 150, 0.4);
+}

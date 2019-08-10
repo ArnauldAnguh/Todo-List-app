@@ -1,0 +1,167 @@
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #f7f7f7;
+  margin: 0px;
+}
+.page {
+  max-width: 800px;
+  min-height: 100%;
+  width: auto;
+  background: white;
+  top: 0%;
+  margin: 0px auto;
+  padding: 20px;
+  box-shadow: inset 0px 0px 3px orangered, 0px 0px 3px #f7f7f7;
+}
+.user {
+  text-decoration: none;
+  border-radius: 5px;
+  min-width: 150px;
+  padding: 5px;
+  margin-bottom: 10px;
+  position: relative;
+  border: 1px solid #222;
+  float: left;
+  text-align: center;
+}
+.heading {
+  width: 55%;
+  font-size: 12px;
+  padding: none;
+  color: #6b8e23;
+  margin: 30px auto;
+  background: #fff8dc;
+  border: 2px solid #6b8e23;
+  border-radius: 20px;
+  text-align: center;
+}
+form {
+  width: auto;
+  margin: 15px auto;
+  color: #6b8e23;
+  border: 1px solid #6b8e23;
+  background: #fff8dc;
+  border-radius: 5px;
+}
+.form-control {
+  width: 75%;
+  border: 1px solid #6b8e23;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 3px 3px 3px 20px;
+  outline: 0;
+}
+.btn {
+  margin: 4px 0px 4px 2px;
+  padding: 5px 20px;
+  color: #6b8e23;
+  background: #fff8dc;
+  border-radius: 7px;
+  border: 1px solid #6b8e23;
+  height: 39px;
+  outline: 0;
+}
+.btn:hover {
+  color: #d79090;
+  cursor: pointer;
+  background: #f5f2f2;
+}
+
+.table {
+  border-collapse: separate;
+  text-align: center;
+  position: relative;
+  width: 500px auto;
+  color: #666;
+}
+thead {
+  background-color: blue;
+  color: white;
+}
+tbody {
+  background-color: #efefef;
+}
+tr {
+  border-bottom: 1px solid #6b8e23;
+}
+tbody tr:hover,
+tr:focus {
+  background: #fff8dc;
+  color: #6b8e23;
+}
+th,
+td {
+  border: none;
+  height: 30px;
+  padding: 2px;
+  width: 300px;
+}
+.logout {
+  text-decoration: none;
+  cursor: pointer;
+  color: lightgreen;
+  font-size: 13px;
+}
+#delete {
+  height: 23px;
+  color: red;
+  padding: 3px;
+  cursor: pointer;
+  font-size: 24px;
+  height: 18px;
+  text-decoration: none;
+}
+.task {
+  text-align: left;
+}
+.delete a {
+  color: #fff;
+  width: 60px;
+  padding: 1px 6px;
+  background: #a52a2a;
+  margin-top: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.delete {
+  text-align: center;
+}
+a:hover {
+  color: #666;
+  cursor: pointer;
+}
+.edit {
+  background: transparent;
+}
+.edit a {
+  background: transparent;
+}
+.edit a:hover {
+  background: transparent;
+}
+.info {
+  background: red;
+  text-align: center;
+  padding: 5px;
+}
+.success {
+  text-align: center;
+  padding: 6px;
+  color: green;
+}
+.error {
+  text-align: center;
+  padding: 6px;
+  color: red;
+}
+footer {
+  width: 100%;
+  padding: 5px 20px;
+
+  color: white;
+  position: relative;
+  bottom: 0;
+  box-sizing: border-box;
+}
